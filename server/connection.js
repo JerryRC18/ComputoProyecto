@@ -5,7 +5,7 @@ const { promisify } = require('util');
 //Configurar la conexion a la base de datos 
 const connection = mysql.createPool({
     host: 'localhost',
-    user: 'proyectofinal',
+    user: 'root',
     password: 'root',
     database: 'biblioteca_vue_db'
 });
