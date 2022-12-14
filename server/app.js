@@ -14,6 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/libros', require('./routes/libro'));
 app.use('/prestamos', require('./routes/prestamo'));
+app.use('/usuarios', require('./routes/usuario'));
 
 //API REST --> HTTP --> Web 
 // GET, POST --> Enviar y recuperar información 
